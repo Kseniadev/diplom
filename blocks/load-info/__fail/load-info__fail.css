@@ -1,0 +1,13 @@
+@import url("../__fail-image/load-info__fail-image.css");
+@import url("../__fail-title/load-info__fail-title.css");
+@import url("../__fail-description/load-info__fail-description.css");
+
+.load-info__fail {
+    background-color: #F5F6F7;
+    display: none;
+    /*flex для активного состояния TODO*/
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0;
+}

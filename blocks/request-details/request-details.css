@@ -1,0 +1,22 @@
+@import url("./__title/request-details__title.css");
+@import url("./__chart-line/request-details__chart-line.css");
+@import url("./__chart/request-details__chart.css");
+
+.request-details {
+    background: #F5F6F7;
+    padding: 80px 104px;
+    width: calc(100% - 208px);
+}
+
+@media (max-width: 768px) {
+    .request-details {
+        padding: 40px;
+        width: calc(100% - 80px);
+    }
+}
+@media (max-width: 440px) {
+    .request-details {
+        padding: 24px 16px 14px;;
+        width: calc(100% - 32px);
+    }
+}

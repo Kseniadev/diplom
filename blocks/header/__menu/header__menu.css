@@ -1,0 +1,17 @@
+@import url("../__home/header__home.css");
+@import url("../__description/header__description.css");
+
+.header__menu {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+@media (max-width: 500px) {
+    .header__home {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}

@@ -1,0 +1,10 @@
+.commits-history__carousel-cell-avatar {
+    margin-right: 16px;
+}
+
+@media (max-width: 768px) {
+    .commits-history__carousel-cell-avatar {
+        width: 48px;
+        height: 100%;
+    }
+}

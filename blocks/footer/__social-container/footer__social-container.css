@@ -1,0 +1,7 @@
+@import url("../__social/footer__social.css");
+
+@media (max-width: 440px) {
+    .footer__social-container {
+        margin-right: -26px;
+    }
+}

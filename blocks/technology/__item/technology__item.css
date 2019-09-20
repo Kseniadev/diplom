@@ -1,0 +1,9 @@
+@import url("../__item-title/technology__item-title.css");
+@import url("../__item-image/technology__item-image.css");
+
+
+@media (max-width: 768px) {
+    .technology__item {
+        text-align: center;
+    }
+}

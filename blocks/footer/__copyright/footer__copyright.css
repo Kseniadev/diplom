@@ -1,0 +1,22 @@
+.footer__copyright {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.37;
+    color: #B6BCBF;
+}
+
+@media (max-width: 767px) {
+    .footer__copyright {
+        flex: 100%;
+        order: 1;
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 440px) {
+    .footer__copyright {
+        margin-top: 40px;
+    }
+}
