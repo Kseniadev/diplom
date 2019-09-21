@@ -4,9 +4,12 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
+
 module.exports = {
     entry: {
-        main: './src/index.js'
+        main: './src/js/index.js',
+        about: './src/js/about.js',
+        analytics: './src/js/analytics.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -26,7 +29,7 @@ module.exports = {
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
                     options: {
-
+                        publicPath: '../'
                     }
                 },
                     {
@@ -69,7 +72,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'style.[contenthash].css'
+            filename: './css/[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
             inject: false,
@@ -90,10 +93,6 @@ module.exports = {
             filename: 'analytics.html'
         }),
         new WebpackMd5Hash(),
-        // new CopyWebpackPlugin([{
-        //     from: './images',
-        //     to: 'images'
-        // }]),
         new CopyWebpackPlugin([{
             from: './vendor',
             to: 'vendor'

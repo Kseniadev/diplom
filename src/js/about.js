@@ -1,22 +1,10 @@
-import "./style.css";
-import "../vendor/modules/flickity.css"
-// import "../blocks/header/header.css";
-// import "../blocks/page/page.css";
-// import "../blocks/search-block/search-block.css";
-// import "../blocks/content/content.css";
-// import "../blocks/load-info/load-info.css";
-// import "../blocks/cards-grid/cards-grid.css";
-// import "../blocks/about-author/about-author.css";
-// import "../blocks/footer/footer.css";
-// import "../blocks/client/client.css";
-// import "../blocks/technology/technology.css";
-// import "../blocks/commits-history/commits-history.css";
-// import "../blocks/request-info/request-info.css";
-// import "../blocks/request-details/request-details.css";
+import "../css/style.css";
+import "../../vendor/modules/flickity.css"
+
 
 const gitButton = document.querySelector(".content-info__button");
 
-if (window.location.href.indexOf('about') > 0) {
+
 
     function sliderDesktop() {
         let Flickity = require('flickity');
@@ -41,7 +29,6 @@ if (window.location.href.indexOf('about') > 0) {
     }
 
 
-    //TODO фиксануть возвращение гит кнопки в исходное состояние
     function checkWidthForSlider() {
         if (window.innerWidth <= 768) {
             sliderMobile()
@@ -69,6 +56,6 @@ if (window.location.href.indexOf('about') > 0) {
 
     checkWidthForGitButton();
     checkWidthForSlider();
-}
+
 
 
