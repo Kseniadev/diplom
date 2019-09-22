@@ -1,5 +1,5 @@
 .load-info__fail-image {
     display: block;
     flex: 0 0 96px;
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
 }
