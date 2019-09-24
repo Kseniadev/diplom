@@ -1,0 +1,46 @@
+@import url("../__carousel-cell-date/commits-history__carousel-cell-date.css");
+@import url("../__carousel-cell-about-author/commits-history__carousel-cell-about-author.css");
+@import url("../__carousel-cell-description/commits-history__carousel-cell-description.css");
+
+.commits-history__carousel-cell {
+    padding: 24px;
+    background: white;
+    width: 30%;
+    margin: 0 8px;
+    max-width: 352px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.commits-history__carousel-cell:hover {
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+    transition: all .3s;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .commits-history__carousel-cell {
+        max-height: 194px;
+        margin: 0 8px 0 0;
+        padding: 24px 16px 24px 24px;
+        width: 40%;
+        max-width: 296px;
+    }
+}
+
+@media (max-width: 616px) {
+    .commits-history__carousel-cell {
+        max-height: 264px;
+    }
+}
+@media (max-width: 550px) {
+    .commits-history__carousel-cell {
+        width: calc(100% - 90px);
+        max-width: inherit;
+    }
+}
+@media (max-width: 440px) {
+    .commits-history__carousel-cell {
+        width: calc(100% - 86px);
+    }
+}

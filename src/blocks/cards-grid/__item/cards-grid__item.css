@@ -1,0 +1,28 @@
+@import url("../__item-image/cards-grid__item-image.css");
+@import url("../__item-date/cards-grid__item-date.css");
+@import url("../__item-subtitle/cards-grid__item-subtitle.css");
+@import url("../__item-description/cards-grid__item-description.css");
+@import url("../__item-source/cards-grid__item-source.css");
+
+.cards-grid__item {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: column;
+    justify-content: stretch;
+    text-decoration: none;
+}
+
+@media (max-width: 1050px) {
+    .cards-grid__item {
+        padding-bottom: 16px;
+    }
+}
+
+.cards-grid__item:hover {
+    box-shadow: 2px 2px 3px 2px #0000000f;
+    transition: all .3s;
+}
+

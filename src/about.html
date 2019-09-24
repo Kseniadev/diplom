@@ -8,15 +8,15 @@
     <meta name="description" content="Об авторе, используемые технологии на сайте и демонстрация коммитов">
     <title>О проекте и авторе</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
-    <link rel="shortcut icon" href="../images/Rectangle%202.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/Rectangle%202.png" type="image/x-icon">
 </head>
 <body>
     <div class="page">
-        <header class="header header_position_inherit">
-            <a class="header__logo header_color_black" href="/">NewsAnalyzer</a>
+        <header class="header header_shadow_black">
+            <a class="header__logo header__logo_color_black" href="/">NewsAnalyzer</a>
             <div class="header__menu black-label">
-                <a class="header__home header__button-status_disabled" href="/">Главная</a>
-                <a class="header__description header__button-status header__button-status_active-black header_color_black" href="/about.html">О проекте</a>
+                <a class="header__home header__button-status header__button-status_disabled" href="/">Главная</a>
+                <a class="header__description header__button-status header__button-status_active_black header__description_color_black" href="/about.html">О проекте</a>
             </div>
         </header>
         <main class="content">
@@ -35,19 +35,19 @@
                 <div class="technology__item-container">
                     <div class="technology__item">
                         <h4 class="technology__item-title">HTML</h4>
-                        <img class="technology__item-image" alt="использовался html5" src="<%=require('../images/html-icon.png')%>">
+                        <img class="technology__item-image" alt="использовался html5" src="<%=require('./images/html-icon.png')%>">
                     </div>
                     <div class="technology__item">
                         <h4 class="technology__item-title">CSS</h4>
-                        <img class="technology__item-image" alt="использовался css 3.0" src="<%=require('../images/css-icon.png')%>">
+                        <img class="technology__item-image" alt="использовался css 3.0" src="<%=require('./images/css-icon.png')%>">
                     </div>
                     <div class="technology__item">
                         <h4 class="technology__item-title">Java Script</h4>
-                        <img class="technology__item-image" alt="использовался Java Script ES6" src="<%=require('../images/js-icon.png')%>">
+                        <img class="technology__item-image" alt="использовался Java Script ES6" src="<%=require('./images/js-icon.png')%>">
                     </div>
                     <div class="technology__item">
                         <h4 class="technology__item-title">Webpack</h4>
-                        <img class="technology__item-image" alt="использовался сборщик Webpack" src="<%=require('../images/wp-icon.png')%>">
+                        <img class="technology__item-image" alt="использовался сборщик Webpack" src="<%=require('./images/wp-icon.png')%>">
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@
 
             <section class="about-author">
                 <div class="about-author__photo-wrapper">
-                    <img class="about-author__photo" src="<%=require('../images/image-03.png')%>" alt="мое фото">
+                    <img class="about-author__photo" src="<%=require('./images/image-03.png')%>" alt="мое фото">
                 </div>
                 <div class="about-author__text">
                     <h2 class="about-author__title">Об авторе</h2>
@@ -75,7 +75,7 @@
                     <div class="commits-history__carousel-cell">
                         <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
                         <div class="commits-history__carousel-cell-about-author">
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('../images/commit-ava.png')%>" alt="аватарка">
+                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
                             <div class="commits-history__container-name-email">
                                 <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
                                 <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
@@ -88,7 +88,7 @@
 
                         <div class="commits-history__carousel-cell-about-author">
 
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('../images/commit-ava.png')%>" alt="аватарка">
+                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
                             <div class="commits-history__container-name-email">
                                 <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
                                 <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
@@ -103,7 +103,7 @@
 
                         <div class="commits-history__carousel-cell-about-author">
 
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('../images/commit-ava.png')%>" alt="аватарка">
+                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
                             <div class="commits-history__container-name-email">
                                 <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
                                 <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
@@ -118,7 +118,7 @@
 
                         <div class="commits-history__carousel-cell-about-author">
 
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('../images/commit-ava.png')%>" alt="аватарка">
+                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
                             <div class="commits-history__container-name-email">
                                 <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
                                 <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
@@ -133,7 +133,7 @@
 
                         <div class="commits-history__carousel-cell-about-author">
 
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('../images/commit-ava.png')%>" alt="аватарка">
+                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
                             <div class="commits-history__container-name-email">
                                 <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
                                 <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
@@ -156,8 +156,8 @@
                 <a class="footer__link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
             </nav>
             <div class="footer__social-container">
-                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('../images/git-logo.png')%>" alt="иконка github"></a>
-                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('../images/vk-logo.png')%>" alt="иконка vk"></a>
+                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('./images/git-logo.png')%>" alt="иконка github"></a>
+                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('./images/vk-logo.png')%>" alt="иконка vk"></a>
             </div>
         </footer>
     </div>

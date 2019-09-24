@@ -8,15 +8,15 @@
     <meta name="description" content="Подробная аналитика по введенному запросу с графиком">
     <title>Аналитика запроса</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
-    <link rel="shortcut icon" href="../images/Rectangle%202.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/Rectangle%202.png" type="image/x-icon">
 </head>
 <body>
     <div class="page">
-        <header class="header header_position_inherit">
-            <a class="header__logo header_color_black" href="/">NewsAnalyzer</a>
+        <header class="header header_shadow_black">
+            <a class="header__logo header__logo_color_black" href="/">NewsAnalyzer</a>
             <div class="header__menu black-label">
-                <a class="header__home header__button-status_disabled" href="/">Главная</a>
-                <a class="header__description header__button-status_disabled" href="/about.html">О проекте</a>
+                <a class="header__home header__button-status header__button-status_disabled" href="/">Главная</a>
+                <a class="header__description header__button-status header__button-status_disabled" href="/about.html">О проекте</a>
             </div>
         </header>
         <main class="content">
@@ -109,8 +109,8 @@
                 <a class="footer__link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
             </nav>
             <div class="footer__social-container">
-                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('../images/git-logo.png')%>" alt="иконка github"></a>
-                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('../images/vk-logo.png')%>" alt="иконка vk"></a>
+                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('./images/git-logo.png')%>" alt="иконка github"></a>
+                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('./images/vk-logo.png')%>" alt="иконка vk"></a>
             </div>
         </footer>
     </div>

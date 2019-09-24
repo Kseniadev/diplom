@@ -1,0 +1,7 @@
+@import url("../__logo/_color/header__logo_color_white.css");
+@import url("../__logo/_color/header__logo_color_black.css");
+@import url("_color/header__description_color_black.css");
+
+.header__description {
+    text-decoration: none;
+}

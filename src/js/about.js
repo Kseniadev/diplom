@@ -1,40 +1,17 @@
-import "../css/style.css";
-import "../../vendor/modules/flickity.css"
-
+import "../css/about.css";
 
 const gitButton = document.querySelector(".content-info__button");
 
 
 
-    function sliderDesktop() {
+    function sliderInitialization() {
         let Flickity = require('flickity');
         let flkty = new Flickity( '.commits-history__carousel', {
             freeScroll: true,
             wrapAround:  true,
-            initialIndex: 2,
-            adaptiveHeight: true
-
+            initialIndex: 0,
+            groupCells: true
         });
-    }
-
-    function sliderMobile() {
-        let Flickity = require('flickity');
-        let flkty = new Flickity( ".commits-history__carousel", {
-            cellAlign: 'left',
-            wrapAround:  false,
-            initialIndex: 1,
-            adaptiveHeight: true
-        });
-        flkty.selectCell(0);
-    }
-
-
-    function checkWidthForSlider() {
-        if (window.innerWidth <= 768) {
-            sliderMobile()
-        } else {
-            sliderDesktop()
-        }
     }
 
     function checkWidthForGitButton () {
@@ -50,12 +27,12 @@ const gitButton = document.querySelector(".content-info__button");
     }
 
     window.addEventListener('resize', function(event){
-        checkWidthForSlider();
         checkWidthForGitButton();
     });
 
+    sliderInitialization();
     checkWidthForGitButton();
-    checkWidthForSlider();
+
 
 
 

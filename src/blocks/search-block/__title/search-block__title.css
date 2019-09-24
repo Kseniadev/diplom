@@ -1,0 +1,30 @@
+@import url("../__break-line/search-block__break-line.css");
+
+.search-block__title {
+    font-family: Roboto Slab, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.75rem;
+    line-height: 1.06;
+    color: white;
+    margin: 0 0 32px;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .search-block__title {
+        font-size: 2.25rem;
+        line-height: 1.1;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 440px) {
+    .search-block__title {
+        margin-bottom: 56px;
+    }
+}
+
+
+

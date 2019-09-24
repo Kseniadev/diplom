@@ -1,0 +1,19 @@
+.cards-grid__item-description {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.37;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 0 18px;
+    color: #1A1B22;
+}
+
+@media (max-width: 1050px) {
+    .cards-grid__item-description {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 0 12px;
+    }
+}
