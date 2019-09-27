@@ -8,7 +8,7 @@
     <meta name="description" content="Подробная аналитика по введенному запросу с графиком">
     <title>Аналитика запроса</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
-    <link rel="shortcut icon" href="./images/Rectangle%202.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<%=require('./images/Rectangle2.png')%>" type="image/png">
 </head>
 <body>
     <div class="page">
@@ -114,6 +114,6 @@
             </div>
         </footer>
     </div>
-
+    <script src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
 </body>
 </html>

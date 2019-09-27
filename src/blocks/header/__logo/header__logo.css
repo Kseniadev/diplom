@@ -2,7 +2,7 @@
 @import url("_color/header__logo_color_black.css");
 
 .header__logo {
-    font-family: Roboto Slab, serif;
+    font-family: Roboto Slab, PT Serif, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;

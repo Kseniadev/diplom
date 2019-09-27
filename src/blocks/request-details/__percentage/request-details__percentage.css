@@ -3,7 +3,7 @@
 @import url("../__percentage-chart-width/request-details__percentage-chart-width.css");
 
 .request-details__percentage {
-    font-family: Roboto,serif;
+    font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.12rem;

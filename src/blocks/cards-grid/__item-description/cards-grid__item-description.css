@@ -1,5 +1,5 @@
 .cards-grid__item-description {
-    font-family: Roboto, serif;
+    font-family: Roboto, Rubik, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
@@ -15,5 +15,6 @@
         padding-left: 16px;
         padding-right: 16px;
         margin: 0 0 12px;
+        overflow: hidden;
     }
 }

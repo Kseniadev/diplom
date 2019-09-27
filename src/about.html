@@ -8,7 +8,7 @@
     <meta name="description" content="Об авторе, используемые технологии на сайте и демонстрация коммитов">
     <title>О проекте и авторе</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
-    <link rel="shortcut icon" href="./images/Rectangle%202.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<%=require('./images/Rectangle2.png')%>" type="image/png">
 </head>
 <body>
     <div class="page">
@@ -70,81 +70,7 @@
                     <h2 class="content-info__title">История коммитов из GitHub</h2>
                     <a class="content-info__button" href="https://github.com/Kseniadev/diplom/commits/master">Открыть в Github &#8250;</a>
                 </div>
-
-                <div class="commits-history__carousel">
-                    <div class="commits-history__carousel-cell">
-                        <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
-                        <div class="commits-history__carousel-cell-about-author">
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
-                            <div class="commits-history__container-name-email">
-                                <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
-                                <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
-                            </div>
-                        </div>
-                        <p class="commits-history__carousel-cell-description">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-                    </div>
-                    <div class="commits-history__carousel-cell">
-                        <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
-
-                        <div class="commits-history__carousel-cell-about-author">
-
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
-                            <div class="commits-history__container-name-email">
-                                <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
-                                <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
-                            </div>
-                        </div>
-
-                        <p class="commits-history__carousel-cell-description">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open Tools > Plugins > Available plugins and find and install Emmet plugin</p>
-
-                    </div>
-                    <div class="commits-history__carousel-cell">
-                        <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
-
-                        <div class="commits-history__carousel-cell-about-author">
-
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
-                            <div class="commits-history__container-name-email">
-                                <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
-                                <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
-                            </div>
-                        </div>
-
-                        <p class="commits-history__carousel-cell-description">EWith Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb....</p>
-
-                    </div>
-                    <div class="commits-history__carousel-cell">
-                        <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
-
-                        <div class="commits-history__carousel-cell-about-author">
-
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
-                            <div class="commits-history__container-name-email">
-                                <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
-                                <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
-                            </div>
-                        </div>
-
-                        <p class="commits-history__carousel-cell-description">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                    </div>
-                    <div class="commits-history__carousel-cell">
-                        <div class="commits-history__carousel-cell-date">14 августа, 2019</div>
-
-                        <div class="commits-history__carousel-cell-about-author">
-
-                            <img class="commits-history__carousel-cell-avatar" src="<%=require('./images/commit-ava.png')%>" alt="аватарка">
-                            <div class="commits-history__container-name-email">
-                                <div class="commits-history__carousel-cell-author-name">Антон Долинин</div>
-                                <span class="commits-history__carousel-cell-email">anton@yandex.ru</span>
-                            </div>
-                        </div>
-
-                        <p class="commits-history__carousel-cell-description">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-
-                    </div>
-                </div>
-
+                <div class="commits-history__carousel"></div>
             </section>
         </main>
 

@@ -2,7 +2,7 @@
 @import url("../__description/header__description.css");
 
 .header__menu {
-    font-family: Roboto, serif;
+    font-family: Roboto, Rubik, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.1rem;

@@ -92,10 +92,10 @@ module.exports = {
             template: './src/analytics.html',
             filename: 'analytics.html'
         }),
-        new WebpackMd5Hash()
-        // new CopyWebpackPlugin([{
-        //     from: './src/vendor',
-        //     to: 'vendor'
-        // }]),
+        new WebpackMd5Hash(),
+        new CopyWebpackPlugin([{
+            from: './src/images/placeholder-image.png',
+            to: 'images'
+        }]),
     ]
 };

@@ -10,6 +10,8 @@
     max-width: 352px;
     border-radius: 16px;
     cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
 }
 
 .commits-history__carousel-cell:hover {

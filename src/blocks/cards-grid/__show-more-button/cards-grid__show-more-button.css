@@ -1,6 +1,6 @@
 .cards-grid__show-more-button {
     background-color: #FFFFFF;
-    font-family: Roboto, serif;
+    font-family: Roboto, Rubik, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.1rem;
@@ -10,8 +10,7 @@
     color: #1A1B22;
     padding: 20px 84px;
     margin: 0 auto;
-    display: block;
-
+    display: none;
 }
 
 .cards-grid__show-more-button:hover, .cards-grid__show-more-button:active, .cards-grid__show-more-button:focus {

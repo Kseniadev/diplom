@@ -3,7 +3,7 @@
 @import url("../__current-page/request-info__current-page.css");
 
 .request-info__speedbar {
-    font-family: Roboto, serif;
+    font-family: Roboto, Rubik, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.12rem;

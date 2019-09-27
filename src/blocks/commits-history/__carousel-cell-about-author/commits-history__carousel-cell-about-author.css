@@ -1,6 +1,6 @@
 @import url("../__carousel-cell-avatar/commits-history__carousel-cell-avatar.css");
-@import url("../__carousel-cell-author-name/commits-history__carousel-cell-author-name.css");
-@import url("../__carousel-cell-email/commits-history__carousel-cell-email.css");
+@import url("../__container-name-email/commits-history__container-name-email.css");
+
 
 .commits-history__carousel-cell-about-author {
     display: flex;
