@@ -7,7 +7,7 @@ const presets = [
                 firefox: "60",
                 chrome: "64", // yandex browser на базе chrome
                 safari: "11.1",
-                android: "64"
+                chromeAndroid: "64"
 
             },
             useBuiltIns: "usage", // эта настройка babel-polyfill, если стоит значение usage, то будут подставлятся полифилы для версий браузеров которые указали выше.

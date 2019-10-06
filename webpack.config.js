@@ -18,10 +18,12 @@ module.exports = {
 
     module: {
         rules: [{
-            test: /\.js$/i,
+            test: /\.js$/,
             exclude: /node_modules/,
-            use: {
-                loader: "babel-loader"
+            loader: "babel-loader",
+            options: {
+                presets: ["@babel/preset-env"],
+                plugins: ["@babel/plugin-proposal-class-properties"]
             }
         },
             {
@@ -51,17 +53,23 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|ico|svg)$/,
-                use: [
-                    'file-loader?name=./images/[name].[ext]',
-                    {
-                        loader: 'image-webpack-loader',
-                        options: {
-                            optipng: {
-                                enabled: false,
+                use:
+                    [
+                        'file-loader?name=./images/[name].[ext]',
+                        {
+                            loader: 'image-webpack-loader',
+                            options: {
+                                mozjpeg: {
+                                    progressive: true,
+                                    quality: 65
+                                },
+                                pngquant: {
+                                    quality: [0.65, 0.90],
+                                    speed: 4
+                                },
                             }
-                        },
-                    },
-                ],
+                        }
+                    ],
             },
             {
                 test: /\.(eot|ttf|woff|woff2|otf)$/,
