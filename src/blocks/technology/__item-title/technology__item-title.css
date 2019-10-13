@@ -1,0 +1,10 @@
+.technology__item-title {
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 1.3;
+    color: #1A1B22;
+    text-align: center;
+    margin: 0 0 23px;
+}

@@ -1,0 +1,15 @@
+@import url("__title/content-info__title.css");
+@import url("__button/content-info__button.css");
+
+.content-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .content-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

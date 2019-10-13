@@ -1,0 +1,10 @@
+.commits-history__carousel-cell-email {
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.87rem;
+    line-height: 1.57;
+    color: #1A1B22;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

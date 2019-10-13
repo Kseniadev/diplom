@@ -1,0 +1,14 @@
+.footer__link {
+    font-family: Roboto Slab, PT Serif, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #1A1B22;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #B6BCBF;
+    transition: all .3s;
+}

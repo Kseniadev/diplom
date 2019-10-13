@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Кудрявцева Ксения">
+    <meta name="description" content="Подробная аналитика по введенному запросу с графиком">
+    <title>Аналитика запроса</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
+    <link rel="shortcut icon" href="<%=require('./images/Rectangle2.png')%>" type="image/png">
+</head>
+<body>
+    <div class="page">
+        <header class="header header_shadow_black">
+            <a class="header__logo header__logo_color_black" href="/">NewsAnalyzer</a>
+            <div class="header__menu black-label">
+                <a class="header__home header__button-status header__button-status_disabled" href="/">Главная</a>
+                <a class="header__description header__button-status header__button-status_disabled" href="/about.html">О проекте</a>
+            </div>
+        </header>
+        <main class="content">
+            <section class="request-info">
+                <div class="request-info__speedbar">
+                    <a class="request-info__link" href="/">Главная</a>
+                    <span class="request-info__separator">/</span>
+                    <span class="request-info__current-page">Аналитика</span>
+                </div>
+                <h1 class="request-info__title">Вы спросили: «Путешествия»</h1>
+                <div class="request-info__mention">
+                    <p class="request-info__mention-text">Новостей за неделю:</p>
+                    <span class="request-info__mention-number">34 324</span>
+                </div>
+                <div class="request-info__mention">
+                    <p class="request-info__mention-text">Упоминаний в загаловках:</p>
+                    <span class="request-info__mention-number">235</span>
+                </div>
+            </section>
+
+            <section class="request-details">
+                <h2 class="request-details__title">Аналитика по дням</h2>
+
+                <div class="request-details__chart-line">
+                    <div class="request-details__chart-line-date">дата
+                        <p class="request-details__chart-line-month">(август)</p>
+                    </div>
+                    <div class="request-details__chart-line-mention">кол-во упоминаний</div>
+                </div>
+
+                <div class="request-details__chart">
+                    <div class="request-details__chart-metrics">
+                        <span>0</span>
+                        <span>25</span>
+                        <span>50</span>
+                        <span>75</span>
+                        <span>100</span>
+                    </div>
+
+
+                    <div class="request-details__chart-metrics request-details__chart-metrics_bottom">
+                        <span>0</span>
+                        <span>25</span>
+                        <span>50</span>
+                        <span>75</span>
+                        <span>100</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <span class="footer__copyright">&#169; 2019 Supersite</span>
+            <nav class="footer__container">
+                <a class="footer__link" href="/">Главная</a>
+                <a class="footer__link" href="/about.html">О проекте</a>
+                <a class="footer__link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
+            </nav>
+            <div class="footer__social-container">
+                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('./images/git-logo.png')%>" alt="иконка github"></a>
+                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('./images/vk-logo.png')%>" alt="иконка vk"></a>
+            </div>
+        </footer>
+    </div>
+    <script type='module' src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
+</body>
+</html>

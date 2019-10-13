@@ -1,0 +1,15 @@
+.cards-grid__item-image {
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 1050px) {
+    .cards-grid__item-image {
+    }
+}
+@media (max-width: 767px) {
+    .cards-grid__item-image {
+    }
+}
+

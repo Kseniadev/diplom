@@ -1,0 +1,14 @@
+.request-details__percentage-chart-width {
+    display: block;
+    background-color: #2F71E5;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.request-details__percentage-chart-width:hover, .request-details__percentage-chart-width:focus {
+    background-color: #aaa;
+}

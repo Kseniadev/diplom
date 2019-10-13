@@ -1,0 +1,10 @@
+@import url("../__input/search-block__input.css");
+@import url("../__button/search-block__button.css");
+
+.search-block__form {
+    width: 100%;
+    position: relative;
+}
+
+
+

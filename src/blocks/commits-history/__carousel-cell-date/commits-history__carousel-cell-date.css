@@ -1,0 +1,10 @@
+.commits-history__carousel-cell-date {
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.87rem;
+    line-height: 1.57;
+    color: #B6BCBF;
+    max-width: 192px;
+    margin-bottom: 16px;
+}

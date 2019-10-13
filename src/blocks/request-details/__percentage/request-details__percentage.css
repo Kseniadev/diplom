@@ -1,0 +1,21 @@
+@import url("../__percentage-number/request-details__percentage-number.css");
+@import url("../__percentage-text/request-details__percentage-text.css");
+@import url("../__percentage-chart-width/request-details__percentage-chart-width.css");
+
+.request-details__percentage {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.12rem;
+    width: 100%;
+    height: 24px;
+    margin-left: 72px;
+    margin-bottom: 56px;
+}
+
+@media (max-width: 440px) {
+    .request-details__percentage {
+        margin-left: 64px;
+        margin-bottom: 24px;
+    }
+}

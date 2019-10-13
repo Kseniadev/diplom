@@ -1,0 +1,17 @@
+@import url("../__button-status/header__button-status.css");
+@import url("../__logo/_color/header__logo_color_white.css");
+@import url("../__logo/_color/header__logo_color_black.css");
+@import url("_color/header__home_color_white.css");
+
+
+
+.header__home {
+    margin-right: 34px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .header__home {
+        margin-right: 11px;
+    }
+}

@@ -1,0 +1,35 @@
+@import url("__title/search-block__title.css");
+@import url("__subtitle/search-block__subtitle.css");
+@import url("__form/search-block__form.css");
+
+.search-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 29% 80px;
+}
+
+@media (max-width: 950px) {
+    .search-block {
+        padding: 80px 25% 80px;
+    }
+}
+
+    @media (max-width: 768px) {
+    .search-block {
+        padding: 40px 20.5% 48px;
+    }
+}
+
+@media (max-width: 550px) {
+    .search-block {
+        padding: 40px 13% 48px;
+    }
+}
+
+@media (max-width: 440px) {
+    .search-block {
+        padding: 30px 16px 32px;
+    }
+}

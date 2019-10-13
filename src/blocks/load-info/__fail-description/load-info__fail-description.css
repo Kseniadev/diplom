@@ -1,0 +1,10 @@
+.load-info__fail-description {
+    flex: 0 0 330px;
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #B6BCBF;
+    margin: 0;
+}

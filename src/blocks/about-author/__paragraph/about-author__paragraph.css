@@ -1,0 +1,14 @@
+.about-author__paragraph {
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #1A1B22;
+}
+
+@media (max-width: 950px) {
+    .about-author__paragraph {
+        margin: 0;
+    }
+}
