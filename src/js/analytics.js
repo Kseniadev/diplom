@@ -1,5 +1,5 @@
 import "../css/analytics.css";
-import {Analytics} from "./modules/Analytics.js";
+import {DatesTransformer} from "./modules/DatesTransformer.js";
 
 
-new Analytics().initializer();
+new DatesTransformer().initializer();

@@ -23,15 +23,7 @@ getCommits.getInfoFromApi()
     .catch(error => {
         commitCards.showError(error);
     });
-// function sliderInitialization() {
-//     let Flickity = require('flickity');
-//     let flkty = new Flickity( '.commits-history__carousel', {
-//         freeScroll: true,
-//         wrapAround:  true,
-//         initialIndex: 0,
-//         groupCells: true
-//     });
-// }
+
 window.addEventListener('resize', function(event){
     checkWidthForGitButton();
 });
