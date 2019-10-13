@@ -1,9 +1,0 @@
-.request-info__link {
-    color: #1A1B22;
-    text-decoration: none;
-}
-
-.request-info__link:hover {
-    opacity: 0.4;
-    transition: .3s;
-}
