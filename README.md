@@ -13,3 +13,6 @@
 - Выполнить команду ```npm install``` с нужными модулями
 - Для режима разработки исполните команду ```npm run dev```
 - Для production исполните ```npm run build```
+
+![CrazyHappy](https://media.giphy.com/media/3o7btNhMBytxAM6YBa/giphy.gif)
+
