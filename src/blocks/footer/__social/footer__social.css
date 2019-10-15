@@ -1,0 +1,8 @@
+.footer__social {
+    margin-right: 28px;
+}
+
+.footer__social:hover {
+    opacity: 0.4;
+    transition: .3s;
+}

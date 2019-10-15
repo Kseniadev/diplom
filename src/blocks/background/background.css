@@ -1,0 +1,40 @@
+
+
+@media (max-width: 1440px) {
+    .background {
+        background-image: url(../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .background:before {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash768.png");
+    }
+}
+
+@media (max-width: 320px) {
+    .background {
+        background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash320.png");
+    }
+}
+
+.background:before {
+    background-image: url("../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    height: 569px;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: -1;
+    background-position: center 0;
+}

@@ -1,0 +1,18 @@
+@import url("../__chart-metrics/request-details__chart-metrics.css");
+@import url("../__percentage/request-details__percentage.css");
+@import url("../__chart-metrics/request-details__chart-metrics.css");
+
+.request-details__chart {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 20px);
+    position: relative;
+    padding: 20px;
+}
+
+@media (max-width: 440px) {
+    .request-details__chart {
+        width: calc(100% - 16px);
+        padding: 18px 16px;
+    }
+}

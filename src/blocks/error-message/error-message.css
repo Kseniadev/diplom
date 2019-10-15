@@ -1,0 +1,14 @@
+.error-message {
+    font-family: Roboto Slab,PT Sans,serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #ff0000b3;
+    top: 15px;
+    left: 5px;
+    position: relative;
+    background: #ffffff96;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: table-cell;
+}

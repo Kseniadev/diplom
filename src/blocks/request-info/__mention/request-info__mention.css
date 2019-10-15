@@ -1,0 +1,11 @@
+@import url("../__mention-number/request-info__mention-number.css");
+@import url("../__mention-text/request-info__mention-text.css");
+
+.request-info__mention {
+    font-family: Roboto, Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 1.3;
+    margin-top: 4px;
+}

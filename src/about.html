@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Кудрявцева Ксения">
+    <meta name="description" content="Об авторе, используемые технологии на сайте и демонстрация коммитов">
+    <title>О проекте и авторе</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
+    <link rel="shortcut icon" href="<%=require('./images/Rectangle2.png')%>" type="image/png">
+</head>
+<body>
+    <div class="page">
+        <header class="header header_shadow_black">
+            <a class="header__logo header__logo_color_black" href="/">NewsAnalyzer</a>
+            <div class="header__menu black-label">
+                <a class="header__home header__button-status header__button-status_disabled" href="/">Главная</a>
+                <a class="header__description header__button-status header__button-status_active_black header__description_color_black" href="/about.html">О проекте</a>
+            </div>
+        </header>
+        <main class="content">
+
+            <section class="client">
+                <h1 class="client__title">Клиентам</h1>
+                <p class="client__paragraph">Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент, и какими технологиями владеет.</p>
+                <p class="client__paragraph">Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+                <p class="client__paragraph">Карточки с новостям приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+                <p class="client__paragraph">При создании проекта была использона сборка технологией Webpack. Это современных подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. А значит потенциальная аудитория возрастает.</p>
+                <p class="client__paragraph">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+            </section>
+
+            <section class="technology">
+                <h2 class="technology__title">Используемые технологии</h2>
+                <div class="technology__item-container">
+                    <div class="technology__item">
+                        <h4 class="technology__item-title">HTML</h4>
+                        <img class="technology__item-image" alt="использовался html5" src="<%=require('./images/html-icon.png')%>">
+                    </div>
+                    <div class="technology__item">
+                        <h4 class="technology__item-title">CSS</h4>
+                        <img class="technology__item-image" alt="использовался css 3.0" src="<%=require('./images/css-icon.png')%>">
+                    </div>
+                    <div class="technology__item">
+                        <h4 class="technology__item-title">Java Script</h4>
+                        <img class="technology__item-image" alt="использовался Java Script ES6" src="<%=require('./images/js-icon.png')%>">
+                    </div>
+                    <div class="technology__item">
+                        <h4 class="technology__item-title">Webpack</h4>
+                        <img class="technology__item-image" alt="использовался сборщик Webpack" src="<%=require('./images/wp-icon.png')%>">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about-author">
+                <div class="about-author__photo-wrapper">
+                    <img class="about-author__photo" src="<%=require('./images/my-photo.png')%>" alt="мое фото">
+                </div>
+                <div class="about-author__text">
+                    <h2 class="about-author__title">Об авторе</h2>
+                    <p class="about-author__paragraph">Меня зовут Кудрявцева Ксения и я начинающий frontend разработчик. В ходе обучения на Яндекс.Практикуме мною были освоены технологии HTML5, CSS3 и JavaScript ES6. </p>
+                    <p class="about-author__paragraph">Имею опыт работы с семантическими тегами HTML и адаптивной (flex-box, grid), при этом валидной, версткой. При необходимости могу адаптировать проекты для БЭМ структуры: как для CSS, так и для JS.</p>
+                    <p class="about-author__paragraph">Мой опыт в JS не ограничивается простым взаимодействием с DOM элементами страницы, умею работать с API и асинхронным ООП кодом.</p>
+                    <p class="about-author__paragraph">В плане верстки есть опыт pixel-perfect разработки более десятка проектов сделанных в Figma.</p>
+                    <p class="about-author__paragraph">Современная frontend разработка подразумевает еще и работу с npm пакетами и Webpack'ом в частности. Кстати, данный проект был собран, а код транспилирован и минифицирован с его помощью.</p>
+                    <p class="about-author__paragraph">Когда обычная документация не дает искомых ответов, не стесняюсь пользоваться гуглом(дальше 1 страницы).</p>
+                </div>
+            </section>
+
+            <section class="commits-history">
+
+                <div class="content-info">
+                    <h2 class="content-info__title">История коммитов из GitHub</h2>
+                    <a class="content-info__button" href="https://github.com/Kseniadev/diplom/commits/master">Открыть в Github &#8250;</a>
+                </div>
+                <div class="commits-history__carousel"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span class="footer__copyright">&#169; 2019 Supersite</span>
+            <nav class="footer__container">
+                <a class="footer__link" href="/">Главная</a>
+                <a class="footer__link" href="/about.html">О проекте</a>
+                <a class="footer__link" href="https://praktikum.yandex.ru">Яндекс.Практикум</a>
+            </nav>
+            <div class="footer__social-container">
+                <a class="footer__social" href="https://github.com/Kseniadev/diplom"><img src="<%=require('./images/git-logo.png')%>" alt="иконка github"></a>
+                <a class="footer__social" href="https://vk.com/id3933499"><img src="<%=require('./images/vk-logo.png')%>" alt="иконка vk"></a>
+            </div>
+        </footer>
+    </div>
+    <script type='module' src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+</body>
+</html>
