@@ -1,4 +1,4 @@
-# Дипломная работа [NewsAnalyzer](https://kseniadev.github.io/diplom/)
+# Дипломная работа [NewsAnalyzer](https://kseniadev.github.io/newsAnalyzer/)
 
 ## Сервис поиска новостей по заданной тематике. Анализирует выдачу и составляет диаграмму популярности за последние семь дней.
 
